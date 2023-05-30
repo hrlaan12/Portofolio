@@ -83,6 +83,9 @@ nav ul li a.active{
         transition: 0.2s;
         box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
     }
+    #nav_check:checked ~ nav{
+        left: 0;
+    }
     nav .logo{
         display: block;
         height: 70px;
